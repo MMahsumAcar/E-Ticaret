@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>anaSayfa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/sayfalar/kayitol/kayitol.css">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light"  >
+
+    <a class="navbar-brand" href="#">
+    <img src="/resimler/1_org_zoom.webp" width="60" height="60" alt="">
+  </a>
+
+  <a class="navbar-brand" href="/sayfalar/anaSayfa/anaSayfa.html" >Ana Sayfa</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/sayfalar/urunler/urunler.html">Ürünler <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/sayfalar/sepet/sepet.html">Sepet </a>
+      </li>
+      
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="/sayfalar/hakkimizda/hakkimizda.html">Hakkımızda</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link " href="/sayfalar/iletisim/iletisim.html">İletişim</a>
+      </li>
+<li class="nav-item active">
+        <a class="nav-link " href="/sayfalar/girisyap/girisyap.html">Giriş Yap</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link " href="/sayfalar/kayitol/kayitol.html">Kayıt Ol</a>
+      </li>
+
+
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>
+
+<div class="container">
+  <div>
+    <br>
+    <h2 class="center-text">Kayıt Ekranına Hoşgeldinz</h2>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col"><img src="/resimler/0 537 778 87 07.jpg" style="width: 300;" height="300;" alt="">
+    <br>
+    <br>
+    <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">Şehirler</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect01">
+    <option selected>Şehir Seçiniz</option>
+    <option value="1">Adana</option>
+    <option value="2">Ankara</option>
+    <option value="3">Aydın</option>
+  </select>
+</div>
+
+<div class="input-group mb-3">
+  <select class="custom-select" id="inputGroupSelect02">
+    <option selected>İlçe Seçiniz</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+  <div class="input-group-append">
+    <label class="input-group-text" for="inputGroupSelect02">İlçeler</label>
+  </div>
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary" type="button">Mahalleler</button>
+  </div>
+  <select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+    <option selected>Mahalle Seçiniz</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</div>
+<div class="row">
+  <div class="col">
+    <label for="inputZip">Sokak No</label>
+      <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col">
+    <label for="inputZip">Apt No</label>
+      <input type="text" class="form-control" id="inputZip">
+  </div>
+</div>
+<div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Adres Açıklaması</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</div>
+    </div>
+    <div class="col"><form>
+  <div class="form-group">
+    <label for="isim">Ad Soyad</label>
+        <input type="text" class="form-control" id="isim" aria-describedby="isim"placeholder="Ad Soyad">
+    <small id="isim" class="form-text text-muted">Bu Alanı Doldurmak Zorunludur.</small>
+    <br>
+
+    <label for="exampleInputEmail1">E-Posta Adresinizi Yazınız</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">Bu Alanı Doldurmak Zorunludur.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Şifrenizi Giriniz</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+    <small id="exampleInputPassword1" class="form-text text-muted">Bu Alanı Doldurmak Zorunludur.</small>
+    <br>
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+    <small id="exampleInputPassword1" class="form-text text-muted">Bu Alanı Doldurmak Zorunludur.</small>
+  </div>
+  
+  <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Yükleme</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Profil Fotoğrafı Yüklemek İçin Tıklayınız</label>
+  </div>
+</div>
+<div>
+  <div class="form-check">
+    <h4>Cinsiyetinizi Belirtiniz</h4>
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Erkek
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Kadın
+  </label>
+  <br>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Belirtmek İstemiyorum.
+  </label>
+  <br>
+</div>
+</div>
+  <div class="form-group form-check">
+    <br>
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Onaylıyorum</label>
+    <small id="exampleCheck1" class="form-text text-muted">Bu Alanı Doldurmak Zorunludur.</small>
+  </div>
+  <div class="row">
+    <div class="col"><button type="submit" class="btn btn-success btn-block">Kaydet</button></div>
+    <div class="col"><button type="reset" class="btn btn-primary btn-block">Temizle</button></div>
+  </div>
+</form></div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<footer class="bg-dark text-light py-3 mt-3">
+
+<div class="container">
+  <div class="row">
+    <div class="col col-lg-4">
+      <h3>Lorem, ipsum dolor. </h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit.</p>
+      <p class="mb-0">232424242422424</p>
+    </div>
+    <div class="col"><h4>Menü</h4>
+    <ul class="list-unstyled">
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    </ul>
+  </div>
+    <div class="col"><h4>More</h4>
+    <ul class="list-unstyled">
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    </ul>
+    </div>
+    <div class="col"><h4>Katogori</h4>
+    <ul class="list-unstyled">
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    <li><a href="" class="text-decoration-none text-light">link</a></li>
+    </ul>
+    </div>
+    <div class="col col-lg-3 text-lg-end">
+      <h4>Sosyal medya</h4>
+      <div>
+        <a href="" class="text-decoration-none text-light" ><i class="bi bi-instagram fs-2 me-3"></i></a>
+        <a href="" class="text-decoration-none text-light" ><i class="bi bi-facebook fs-2 me-3"></i></a>
+        <a href="" class="text-decoration-none text-light" ><i class="bi bi-linkedin fs-2 me-3"></i></a>
+        <a href="" class="text-decoration-none text-light" ><i class="bi bi-twitter-x fs-2 me-3"></i></a>
+      </div>
+      <div>
+    </div>
+  </div>
+<hr style="width: 100%; border: 1px solid #ccc; margin: 20px 0;">
+  
+
+  <div class="d-flex justify-content-between">
+    <p>© 2025 Mahsum Acar. Tüm hakları saklıdır.</p>
+  </div>
+</div>
+      </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
